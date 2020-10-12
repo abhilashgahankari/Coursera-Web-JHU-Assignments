@@ -10,10 +10,6 @@ h1 {
   text-align: center;
 }
 
-body {
-  background-color: #fde672;
-}
-
 p {
   padding: 10px;
   margin: 0;
@@ -30,7 +26,7 @@ p {
 
 section {
   border: 1px solid black;
-  background-color: #00ff99;
+  background-color: #e755ec;
   width: 100%;
   height: 200px;
   font-family: Arial, Helvetica, sans-serif;
@@ -86,8 +82,6 @@ section {
   width: 100%;
 }
 
-/* Desktop view */
-
 @media (min-width: 992px) {
   .col-lg-1,
   .col-lg-2,
@@ -142,8 +136,6 @@ section {
   }
 }
 
-/* Tablet view */
-
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1,
   .col-md-2,
@@ -197,8 +189,6 @@ section {
     width: 100%;
   }
 }
-
-/* Mobile view */
 
 @media (max-width: 768px) {
   .col-sm-1,
